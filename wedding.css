@@ -261,7 +261,19 @@ a:hover {
   font-weight: bold;
 }
 
+/* ==== FOOTER ====*/
 
+footer {
+  background-color: #606060;
+  color: #fff;
+  padding: 1rem;
+  font-size: .8rem;
+  font-family: 'Libre Baskerville';
+}
+
+footer strong {
+  font-weight: bold;
+}
 
 
 
