@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* ==== Styles ====*/
+
+body {
+  text-align: center;
+}
+
+
+/* ==== HEADER ==== */
+
+.cover {
+  background: url('assets/cover%20photo.jpg') no-repeat center;
+  background-size: cover;
+  background-position-x: 70%;
+  height: 100vh;
+  width: 100%;
+  color: #d2ba87;
+  font-family: 'Great Vibes';
+  font-size: 3.5rem;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.byline {
+  background: hsla(100,0%,0%,.6);
+} 
+
+.cover p {
+  color: hsla(0,0%,100%,.9);
+  font-family: 'Libre Baskerville';
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  padding: 1rem;
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12rem;
+  margin: .5rem auto;
+}
+
+.date::after, .date::before {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+
+
+
