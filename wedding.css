@@ -102,14 +102,14 @@ body {
   color: #444349;
 }
 
-.location h1 {
+.location h2 {
   font-family: 'Great Vibes';
   font-size: 3rem;
   font-weight: bold;
   padding: 2rem;
 }
 
-.location h2 {
+.location h3 {
   font-family: 'Libre Baskerville';
   font-weight: bold;
   font-size: 1.2rem;
@@ -171,7 +171,7 @@ body {
   }
 }
 
-.program h1 {
+.program h2 {
   font-family: 'Great Vibes';
   font-size: 3rem;
   font-weight: bold;
@@ -180,7 +180,7 @@ body {
   margin-top: 1rem;
 }
 
-.program h2 {
+.program h3 {
   font-size: .9rem;
   font-weight: bold;
   font-style: italic;
@@ -207,7 +207,7 @@ ul {
   color: #444349;
 }
 
-.gifts h1 {
+.gifts h2 {
   font-family: 'Great Vibes';
   font-size: 3rem;
   font-weight: bold;
@@ -246,7 +246,7 @@ ul {
   padding: .6rem;
 }
 
-.questions h1 {
+.questions h2 {
   font-family: 'Great Vibes';
   font-size: 2.6rem;
   font-weight: bold;
@@ -254,20 +254,17 @@ ul {
   margin-bottom: 1.5rem;
 }
 
-.questions h2 {
+.questions h3 {
   margin-bottom: 1rem;
   font-size: 1.2rem;
-}
-
-.questions p {
-  font-family: 'Mulish';
 }
 
 .quest {
   font-weight: bold;
 }
 
-.questions article {
+.questions p {
+  font-family: 'Mulish';
   text-align: left;
   line-height: 1.5rem;
   margin-bottom: 1rem;
@@ -286,7 +283,7 @@ ul {
     padding: 1rem;
   }
   
-  .questions h2 {
+  .questions h3 {
     font-size: 1.7rem;
     padding: 1rem;
     margin: 0 auto;
@@ -324,7 +321,7 @@ a:hover {
   color: #444349;
 }
 
-.contact h1 {
+.contact h2 {
   font-family: 'Great Vibes';
   font-size: 3rem;
   font-weight: bold;
