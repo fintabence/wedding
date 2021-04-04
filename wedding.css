@@ -31,7 +31,25 @@ body {
 
 .byline {
   background: hsla(100,0%,0%,.6);
+  margin: 0 auto;
 } 
+
+@media (min-width: 768px){
+  
+  .byline {
+    width: 50%;
+    height: 100vh;
+    padding: 4rem;
+  }
+  
+  .byline h1 {
+    font-size: 7rem;
+  }
+  .byline p {
+    font-size: 2rem;
+  }
+
+}
 
 .cover p {
   color: hsla(0,0%,100%,.9);
