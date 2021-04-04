@@ -109,6 +109,7 @@ body {
 
 .program {
   background: url(assets/background%20pattern.png) no-repeat center;
+  background-size: cover;
   color: #d2ba87;
 }
 
@@ -267,7 +268,7 @@ footer {
   background-color: #606060;
   color: #fff;
   padding: 1rem;
-  font-size: .8rem;
+  font-size: .7rem;
   font-family: 'Libre Baskerville';
 }
 
