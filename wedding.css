@@ -7,6 +7,7 @@
 
 body {
   text-align: center;
+  background: url(assets/background%20pattern.png) repeat center;
 }
 
 
@@ -34,21 +35,35 @@ body {
   margin: 0 auto;
 } 
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   
   .byline {
     width: 50%;
     height: 100vh;
-    padding: 4rem;
+    padding: 3rem;
   }
   
   .byline h1 {
     font-size: 7rem;
   }
   .byline p {
-    font-size: 2rem;
+    text-transform: uppercase;
   }
 
+}
+
+@media (min-width: 1024px) {
+  
+  .byline {
+    height: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .byline h1 {
+    font-size: 5rem;
+  }
+  
 }
 
 .cover p {
@@ -91,6 +106,7 @@ body {
   font-family: 'Great Vibes';
   font-size: 3rem;
   font-weight: bold;
+  padding: 2rem;
 }
 
 .location h2 {
@@ -113,30 +129,46 @@ body {
   padding: .3rem;
 }
 
-.box::after {
-  display: inline-block;
-  content: "";
-  background: #444349;
-  height: 4px;
-  width: 4rem;
-  vertical-align: middle;
-  margin: 1.5rem;
+@media (min-width: 768px) {
+  .box {
+    width: 30%;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px){
+  
+  .box::after {
+    display: inline-block;
+    content: "";
+    background: #444349;
+    height: 4px;
+    width: 4rem;
+    vertical-align: middle;
+    margin: 1.5rem;
+  }
 }
 
 /* ==== PROGRAM ==== */
 
 .program {
-  background: url(assets/background%20pattern.png) no-repeat center;
-  background-size: cover;
+  background: hsla(100,0%,0%,.6);
   color: #d2ba87;
 }
 
 .program-wrapper {
-  background: hsla(100,0%,0%,.6);
   padding: .5rem;
   font-family: 'Mulish';
   font-size: 1rem;
   text-align: left;
+}
+
+@media (min-width:768px){
+  
+  .program-wrapper {
+    margin: 0 auto;
+    width: 70vh;
+  }
 }
 
 .program h1 {
@@ -193,6 +225,13 @@ ul {
   margin-top: 1rem;
 }
 
+@media (min-width:768px){
+  
+  .gifts-icon {
+    width: 30vh;
+  }
+}
+
 
 /* ==== QUESTIONS AND ANSWERS ==== */
 
@@ -217,7 +256,6 @@ ul {
 
 .questions h2 {
   margin-bottom: 1rem;
-  font-weight: bold;
   font-size: 1.2rem;
 }
 
@@ -239,14 +277,33 @@ ul {
   font-family: 'Libre Baskerville';
 }
 
-.box2::after {
-  display: inline-block;
-  content: "";
-  background: #d2ba87;
-  height: .1875rem;
-  width: 10rem;
-  vertical-align: middle;
-  margin: 1.5rem;
+@media (min-width:768px) {
+  
+  .box2 {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1rem;
+  }
+  
+  .questions h2 {
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:767px){
+
+  .box2::after {
+    display: inline-block;
+    content: "";
+    background: #d2ba87;
+    height: .1875rem;
+    width: 10rem;
+    vertical-align: middle;
+    margin: 1.5rem;
+  }
 }
 
 a {
